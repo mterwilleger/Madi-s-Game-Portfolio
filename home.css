@@ -1,0 +1,46 @@
+header {
+    font-size: 100px;
+    text-align: center;
+}
+nav {
+    background-color: orange;
+    color: orange;
+    height: 50px;
+}
+div {
+    max-width: 30%;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+}
+h1, h2, h3, h4 {
+    font-size: 50px;
+    text-align: center;
+}
+.blurb {
+    font-size: 30px;
+    max-width: 90%;
+    text-align: center;
+}
+.buttons {
+    background-color: orange;
+    color: white;
+    max-width: 1000px;
+    font-size: 45px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    border-color: orange;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    font-size: 30px;
+    text-align: center;
+    background-color: orange;
+    margin-top: 150px;
+}
