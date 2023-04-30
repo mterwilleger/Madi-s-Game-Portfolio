@@ -1,16 +1,19 @@
 body {
     background-color: #003049;
     color: #e5e5e5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
     font-size: 100px;
     text-align: center;
-    color: #fca311;
+    color: #f77f00;
+    padding: 75px;
+    font-family: "Abril Fatface";
 }
 nav {
-    background-color: #fca311;
-    color: #fca311;
-    height: 50px;
+    background-color: #f77f00;
+    color: #f77f00;
+    height: 10px;
 }
 main {
     display: grid;
@@ -38,19 +41,23 @@ h1 {
     font-size: 60px;
     margin-left: 26%;
     margin-top: -10px;
+    font-family: "Abril Fatface";
 }
 h2 {
     font-size: 60px;
     margin-left: 30%;
     margin-top: -10px;
+    font-family: "Abril Fatface";
 }
 h3 {
     font-size: 60px;
     margin-left: 22%;
     margin-top: -10px;
+    font-family: "Abril Fatface";
 }
 h4 {
     font-size: 50px;
+    Margin-bottom: 0px;
 }
 .gif1, .gif2 {
     margin-left: 7%;
@@ -102,7 +109,7 @@ button:hover {
     background-color: #f4a261;
 }
 .buttons {
-    background-color: #fca311;
+    background-color: #f77f00;
     color: white;
     max-width: 1000px;
     font-size: 45px;
@@ -116,9 +123,16 @@ button:hover {
     margin: auto;
     margin-bottom: 40px;
 }
+.button2 {
+    margin-top: 280px;
+} 
+.button3 {
+    margin-top: 230px;
+}
 footer {
     font-size: 30px;
     text-align: center;
     background-color: #fca311;
-    margin-top: 150px;
+    margin-top: 10px;
+    font-family: "Abril Fatface";
 }
