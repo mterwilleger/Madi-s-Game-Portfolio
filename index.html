@@ -13,35 +13,38 @@
         Madi's Unity Portfolio
     </header>
     <nav>
-        <p> </p>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#contactInfo">About</a></li>
+        </ul>
     </nav>
     <main>
         <div id="library">
             <a href="https://mterwilleger.github.io/MyHeroBornRepo/"><img class="gif1 active" src="Pictures/LibraryBornGif.gif"/></a>
             <h1>LibraryBorn</h1>
-            <p class="blurb">LibraryBorn was created by expanding on the ideas presented in the book titled Learning C# by Harrison Ferrone. Ferrone’s version of this game called HeroBorn is a simple arena with a player, enemy and pickups. My version is set in a Library with multiple floors, and pickups that will make you larger or smaller using C# scripts, colliders, and different Animations. I used Audio Mixers to combine sounds and exposed the Audio parameters so the Player can access the different audio sliders, and I wrote code to make those choices persist from game to game. I also implemented audio and particle systems to help the player find the different pickups and win the game. To light the Library, I used LightProbes, Baked Lighting and a Post-Processing effect called Bloom for the ceiling lights.</p>
-            <button class="buttons"><a href="https://mterwilleger.github.io/MyHeroBornRepo/">Play LibraryBorn</a></button>
+            <p class="blurb">LibraryBorn was developed by building upon the concepts presented in Harrison Ferrone's book, "Learning C#." Ferrone's game, HeroBorn, is a simple arena game with a player, enemy, and pickups. In contrast, my version is set in a multi-floor library, featuring pickups that alter the player's size using C# scripts, colliders, and various animations.<br/>To enhance the game's audio, I utilized Audio Mixers to blend sounds and provided players with access to different audio sliders through code that persists across multiple playthroughs. Additionally, I incorporated audio and particle systems to help players locate pickups and achieve victory.<br/>To illuminate the library, I employed LightProbes, Baked Lighting, and a Post-Processing effect known as Bloom for the ceiling lights. Overall, my version of the game expands upon the original concept while incorporating unique features to create a distinctive gameplay experience.</p>
+            <button class="buttons button1"><a href="https://mterwilleger.github.io/MyHeroBornRepo/">Play LibraryBorn</a></button>
             <button class="buttons"><a href="https://github.com/mterwilleger/MyHeroBornRepo/tree/main/MyHeroBorn/Assets/Scripts">See Code</a></button>
         </div>
         <div id="cubeMode">
             <a href="https://mterwilleger.github.io/MyCubethon/"><img class="gif2" src="Pictures/CubeModeGif.gif"/></a>
             <h2>CubeMode</h2>
-            <p class="blurb">CubeMode came from following a tutorial by Brackey’s called <a href="https://www.youtube.com/playlist?list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL">How to Make a Video Game</a>. In this series Brackeys walks you through the steps to create a game called Cubethon. It is a simple game that has a course for the player to follow while avoiding crashing into the blocks. In my version I made the cubes glow with a Post Processing effect called Bloom, and made it so they were embedded in the ground. I used UI to keep a score of how far the player made it, and implemented different levels for when the player completed the first level.</p>
+            <p class="blurb">CubeMode is a game that I created by following Brackey's tutorial series titled <a href="https://www.youtube.com/playlist?list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL">How to Make a Video Game</a>. Brackey's tutorial series walks you through the process of creating a game called Cubethon, which features a course for the player to navigate while avoiding obstacles.<br/><br/>In my version of the game, I added a unique twist by making the cubes glow using a Post Processing effect called Bloom and embedding them in the ground to create a more immersive and visually appealing experience. I also incorporated a UI system to keep track of the player's score as they progress through the game, and implemented different levels to increase the game's difficulty as the player advances.</p>
             <button class="buttons button2"><a href="https://mterwilleger.github.io/MyCubethon/">Play CubeMode</a></button>
             <button class="buttons"><a href="https://github.com/mterwilleger/CrazyBird/tree/main/CrazyBirds/Assets/Script">See Code</a></button>
         </div>
         <div id="galaxy">
             <a href="https://mterwilleger.github.io/CrazyBird/"><img class="gif3" src="Pictures/GalexyCrasherGif.gif"/></a>
             <h3>GalaxyCrashers</h3>
-            <p class="blurb">GalaxyCrashers is my version of the game Terrible Tweeters that is from a <a href="https://www.youtube.com/watch?v=Lu76c85LhGY">tutorial</a> by Jason Weimann. The tutorial that I followed helped you create a game like Angry Birds. In this game the player is trying to eliminate the enemy and break through the obstacles that are in the way.  My game is set in Space, with Alien ships and asteroids to collide with. This game uses Audio Mixers, and the audio can be set by player. It saves the player’s audio preferences from game to game. The camera is set up to use a Target Group to keep the player and enemies in the camera frame at all times.</p>
+            <p class="blurb">GalaxyCrashers is a game that I created based on a <a href="https://www.youtube.com/watch?v=Lu76c85LhGY">tutorial</a> by Jason Weimann for a game called Terrible Tweeters. Weimann's tutorial showed how to create a game similar to Angry Birds, where the player must eliminate enemies and break through obstacles. In my version of the game, I transported the gameplay to outer space and added a new level of challenge with enemy alien ships and asteroids.<br/><br/>To enhance the game's audio, I utilized Audio Mixers and allowed players to set their own audio preferences, which allowed it to persist between games. This added a level of personalization and immersion to the gameplay experience.<br/><br/>To ensure the game was visually appealing, I implemented a camera setup using a Target Group to keep the player and enemies in frame at all times, allowing for a seamless and immersive experience. </p>
             <button class="buttons button3"><a href="https://mterwilleger.github.io/CrazyBird/">Play Galexy Crasher</a></button>
             <button class="buttons"><a href="https://github.com/mterwilleger/CrazyBird/tree/main/CrazyBirds/Assets/Script">See Code</a></button>
         </div>
     </main>
     <footer>
-      <div class="contact info">
+      <div id="contactInfo">
         <h4>Contact Me</h4>
-        <p>terwillm@erau.edu</p>
+        <a href = "mailto: terwillm@erau.edu">terwillm@erau.edu</a>
       </div>
     </footer>
     <script src="Script/home.js"></script>
